@@ -17,7 +17,7 @@ export const About = () => {
                 <p>{val.desc}</p>
                 <p>{val.desc1}</p>
                 <button>Download CV</button>
-                <button className='primaryBtn'>Download CV</button>
+                <button className='primaryBtn'>Contact Me</button>
               </div>
             </>
           ))}

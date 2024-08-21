@@ -21,25 +21,35 @@ export const Portfolio = () => {
   return (
     <>
       <article>
-        <div className='container'>
-          <Heading title='Portfolio' />
-          <div className='catButton'>
+        <div className="container">
+          <Heading title="Portfolio" />
+          <div className="catButton">
             {category.map((category) => (
-              <button className='primaryBtn' onClick={() => filterItems(category)} data-aos='zoom-out-down'>
+              <button
+                className="primaryBtn"
+                onClick={() => filterItems(category)}
+                data-aos="zoom-out-down"
+              >
                 {category}
               </button>
             ))}
           </div>
-          <div className='content grid3'>
+          <div className="content grid3">
             {list.map((item) => (
-              <div className='box' data-aos='fade-up'>
-                <div className='img'>
-                  <img src={item.cover} alt='' />
+              <div className="box" data-aos="fade-up">
+                <div className="img person">
+                  <img className="personImg" src={item.cover} alt="" />
                 </div>
-                <div className='overlay'>
-                  <h3>{item.title}</h3>
+                <div className="overlay">
+                  <h3 className="text-center">{item.title}</h3>
                   <span>{item.name}</span>
-                  <VisibilityOutlinedIcon />
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <VisibilityOutlinedIcon />
+                  </a>
                 </div>
               </div>
             ))}
@@ -47,5 +57,5 @@ export const Portfolio = () => {
         </div>
       </article>
     </>
-  )
+  );
 }

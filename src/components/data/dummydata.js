@@ -44,7 +44,7 @@ export const about = [
     desc: "Vincent Mugondora is a skilled software developer with a focus on crafting innovative and efficient digital solutions. With a passion for technology and a commitment to excellence, Vincent has honed his expertise in various programming languages and frameworks, enabling him to deliver high-quality projects across diverse domains.",
     desc1:
       "Vincent's ability to effectively collaborate with teams and communicate technical concepts makes him a valuable asset to any project. He is dedicated to staying up-to-date with the latest industry trends and technologies, ensuring that his work remains at the forefront of software development practices.",
-    cover: "./images/man.png",
+    cover: "",
   },
 ];
 export const services = [
@@ -115,23 +115,26 @@ export const portfolio = [
   {
     id: 1,
     cover: "../images/port/port1.jpg",
-    name: "Brand",
-    category: "marketing",
-    title: "Brex Logo",
+    name: "Timmerman-Industries",
+    category: "development",
+    title: "Developed this website using react and css.",
+    link: "https://timmerman-industries.vercel.app/",
   },
   {
     id: 2,
-    cover: "../images/port/port2.jpg",
-    name: "Brand",
-    category: "design",
-    title: "Brex Logo",
+    cover: "../images/port/port3.jpg",
+    name: "Blayze-Booth",
+    category: "development",
+    title: "Contributed in coding this website using typescript, next js and tailwind.",
+    link: "https://blayzebooth.co.zw/",
   },
   {
     id: 3,
-    cover: "../images/port/port3.jpg",
-    name: "Brand",
+    cover: "../images/port/port2.jpg",
+    name: "Eco-Fine",
     category: "development",
-    title: "Brex Logo",
+    title: "Coded this website using react tailwind and css",
+    link: "https://blayzebooth.co.zw/",
   },
   {
     id: 4,
@@ -139,6 +142,7 @@ export const portfolio = [
     name: "Brand",
     category: "marketing",
     title: "Brex Logo",
+    link: "https://blayzebooth.co.zw/",
   },
   {
     id: 5,
@@ -146,15 +150,17 @@ export const portfolio = [
     name: "Brand",
     category: "design",
     title: "Brex Logo",
+    link: "https://blayzebooth.co.zw/",
   },
   {
     id: 6,
     cover: "../images/port/port6.jpg",
     name: "Brand",
-    category: "development",
+    category: "design",
     title: "Brex Logo",
+    link: "https://blayzebooth.co.zw/",
   },
-]
+];
 export const testimonials = [
   {
     id: 1,

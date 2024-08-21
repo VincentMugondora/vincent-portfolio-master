@@ -41,49 +41,50 @@ export const home = [
 ];
 export const about = [
   {
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+    desc: "Vincent Mugondora is a skilled software developer with a focus on crafting innovative and efficient digital solutions. With a passion for technology and a commitment to excellence, Vincent has honed his expertise in various programming languages and frameworks, enabling him to deliver high-quality projects across diverse domains.",
+    desc1:
+      "Vincent's ability to effectively collaborate with teams and communicate technical concepts makes him a valuable asset to any project. He is dedicated to staying up-to-date with the latest industry trends and technologies, ensuring that his work remains at the forefront of software development practices.",
     cover: "./images/man.png",
   },
-]
+];
 export const services = [
   {
     id: 1,
     icon: <Settings />,
-    title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Custom Software Development",
+    desc: " The creation of software applications tailored to meet specific needs of a business, organization, or individual.",
   },
   {
     id: 2,
     icon: <CropRotate />,
     title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Code that is understandable at a glance even by someone who is unfamiliar with the project.",
   },
   {
     id: 3,
     icon: <ViewInAr />,
-    title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Responsive Development",
+    desc: "Creating web applications and websites that provide an optimal viewing and interaction experience.",
   },
   {
     id: 4,
     icon: <PieChart />,
-    title: "Material UI	",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Legacy System Modernization	",
+    desc: "Updating or replacing outdated software systems to meet current technological standards and business needs.",
   },
   {
     id: 5,
     icon: <Code />,
-    title: "Material UI Icons",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Web Development",
+    desc: "Focuses on the visual aspects of a website or web application that users interact with directly. ",
   },
   {
     id: 6,
     icon: <BarChart />,
-    title: "Awesome Support",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    title: "Software Consulting",
+    desc: "Assisting organizations in defining their software strategy, aligning technology with business objectives.",
   },
-]
+];
 export const project = [
   {
     id: 1,
@@ -107,7 +108,7 @@ export const project = [
     id: 4,
     icon: <PersonOutlined />,
     num: "1446",
-    title: "LIENS OF CODE",
+    title: "LINES OF CODE",
   },
 ]
 export const portfolio = [

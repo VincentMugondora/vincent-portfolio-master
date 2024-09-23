@@ -1,4 +1,23 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import {
+  Settings,
+  CropRotate,
+  ViewInAr,
+  PieChart,
+  Code,
+  BarChart,
+  CloudOutlined,
+  FavoriteBorder,
+  Public,
+  PersonOutlined,
+  AddLocationAltOutlined,
+  PhoneIphone,
+  EmailOutlined,
+  Facebook,
+  Twitter,
+  Instagram,
+  LinkedIn,
+  WhatsApp,
+} from "@mui/icons-material";
 
 export const navlink = [
   {
@@ -29,7 +48,7 @@ export const navlink = [
     url: "/contact",
     text: "Contact",
   },
-]
+];
 export const home = [
   {
     text: "HELLO I'M",
@@ -44,7 +63,7 @@ export const about = [
     desc: "Vincent Mugondora is a skilled software developer with a focus on crafting innovative and efficient digital solutions. With a passion for technology and a commitment to excellence, Vincent has honed his expertise in various programming languages and frameworks, enabling him to deliver high-quality projects across diverse domains.",
     desc1:
       "Vincent's ability to effectively collaborate with teams and communicate technical concepts makes him a valuable asset to any project. He is dedicated to staying up-to-date with the latest industry trends and technologies, ensuring that his work remains at the forefront of software development practices.",
-    cover: "",
+    cover: "../images/cover.jpg",
   },
 ];
 export const services = [
@@ -110,14 +129,15 @@ export const project = [
     num: "1446",
     title: "LINES OF CODE",
   },
-]
+];
 export const portfolio = [
   {
     id: 1,
     cover: "../images/port/port1.jpg",
     name: "Timmerman-Industries",
     category: "development",
-    title: "Developed this website using react and css.",
+    title:
+      "Transforming Ideas into Reality: A Cutting-Edge Website Built with React!",
     link: "https://timmerman-industries.vercel.app/",
   },
   {
@@ -125,7 +145,8 @@ export const portfolio = [
     cover: "../images/port/port3.jpg",
     name: "Blayze-Booth",
     category: "development",
-    title: "Contributed in coding this website using typescript, next js and tailwind.",
+    title:
+      "Next-Level Development: Harnessing TypeScript and Next.js for a Seamless Experience!",
     link: "https://blayzebooth.co.zw/",
   },
   {
@@ -133,111 +154,125 @@ export const portfolio = [
     cover: "../images/port/port2.jpg",
     name: "Eco-Fine",
     category: "development",
-    title: "Coded this website using react tailwind and css",
+    title:
+      "Eco-Friendly Innovation: A Stunning Website Crafted with React and Tailwind!",
     link: "https://blayzebooth.co.zw/",
   },
   {
     id: 4,
     cover: "../images/port/port4.jpg",
-    name: "Brand",
+    name: "Brex Logo Design",
     category: "marketing",
-    title: "Brex Logo",
+    title: "Brand Identity Redefined: Crafting a Striking Logo for Brex!",
     link: "https://blayzebooth.co.zw/",
   },
   {
     id: 5,
     cover: "../images/port/port5.jpg",
-    name: "Brand",
+    name: "Brex Marketing Materials",
     category: "design",
-    title: "Brex Logo",
+    title:
+      "Creative Marketing Mastery: Elevating Brex’s Brand with Stunning Designs!",
     link: "https://blayzebooth.co.zw/",
   },
   {
     id: 6,
     cover: "../images/port/port6.jpg",
-    name: "Brand",
+    name: "Brex Social Media Graphics",
     category: "design",
-    title: "Brex Logo",
+    title: "Engage and Inspire: Captivating Social Media Graphics for Brex!",
     link: "https://blayzebooth.co.zw/",
   },
 ];
+
 export const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "Vincent Mugondora's technical skills and problem-solving abilities have greatly contributed to our project's success.",
     image: "./images/testimonials/team-1.png",
-    name: "Alamin Musa",
-    post: "Front End Developer",
+    name: "Bryan Vengwa",
+    post: "Full Stack Developer",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "Vincent's innovative approach to digital marketing has transformed our online strategy. I highly recommend him!",
     image: "./images/testimonials/team-2.png",
-    name: "Alex Ander",
-    post: "Back End Developer",
+    name: "Rachel Bulombe",
+    post: "Digital Marketer",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
+    text: "Working with Vincent Mugondora has been a pleasure. His design skills and attention to detail are exceptional.",
     image: "./images/testimonials/team-3.png",
-    name: "GorkCoder",
-    post: "React Developer",
+    name: "Takudzwa Annanciata Kambanga",
+    post: "UI/UX Designer",
   },
-]
+];
 export const blog = [
   {
     id: 1,
-    title: "Master These Awesome",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    title: "Master These Awesome Techniques",
+    date: "Jun 27, 2024",
+    author: "Vincent Mugondora",
+    desc: "Discover powerful techniques that can elevate your skills and take your projects to the next level. Mastering these strategies will help you stand out in your field.",
     cover: "./images/blog/b1.png",
   },
   {
     id: 2,
     title: "Best Design Items to Appeal",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    date: "Jun 27, 2024",
+    author: "Vincent Mugondora",
+    desc: "Explore the top design items that can enhance your work and appeal to clients. These essential tools will help you create visually stunning and impactful designs.",
     cover: "./images/blog/b2.png",
   },
   {
     id: 3,
     title: "The 20 Best Lightroom Presets",
-    date: "Jun 27, 2022",
-    author: "Dorian Gray",
-    desc: "Lorem Ipsum has been standard. Lorem Ipsum is simply text of the printing and typesetting industry. Lorem Ipsum has been",
+    date: "Jun 27, 2024",
+    author: "Vincent Mugondora",
+    desc: "Unlock your creative potential with these 20 must-have Lightroom presets. Each preset is designed to enhance your photos effortlessly, making editing faster and more enjoyable.",
     cover: "./images/blog/b3.png",
   },
-]
+];
+
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "2651 Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
+    text1: "23 Muriranyenze Mufakose",
+    text2: "Harare, Zimbabwe",
   },
   {
     icon: <PhoneIphone />,
-    text1: "0123456789",
-    text2: "0345627891",
+    text1: "+263 777 530 322",
+    text2: "+263 776 477 958",
   },
   {
     icon: <EmailOutlined />,
-    text1: "hello@thetheme.io",
-    text2: "inf0@brex-theme.io",
+    text1: "vinmugondora@gmail.com",
+    text2: "mugondorav@gmail.com",
   },
-]
+];
+
+
 export const social = [
   {
     icon: <Facebook />,
+    link: "https://www.facebook.com/profile.php?id=61559895336491",
   },
   {
     icon: <Twitter />,
+    link: "https://www.twitter.com/vinmugondora",
   },
   {
     icon: <Instagram />,
+    link: "https://www.instagram.com/mugondorav2024/",
   },
   {
-    icon: <YouTube />,
+    icon: <LinkedIn />,
+    link: "https://www.linkedin.com/in/your-profile",
   },
-]
+  {
+    icon: <WhatsApp />,
+    link: "https://wa.me/263777530322",
+  },
+];
